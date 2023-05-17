@@ -1,0 +1,126 @@
+body{
+    background-image: url(images/back.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+  header {
+      background-color: #4CAF50;
+      color: #FFFFFF;
+      padding: 10px;
+      text-align: center;
+    }
+    /* Style the navigation menu */
+    nav {
+      background-color: #333333;
+      color: #FFFFFF;
+      padding: 10px;
+    }
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+    }
+    nav ul li {
+      margin: 0% 10%;
+    }
+    nav ul li a {
+      color: #FFFFFF;
+      text-decoration: none;
+    }
+    .signup-box{
+      width: 360px;
+      height: 720px;
+      margin: auto;
+      background-color: aliceblue;
+      border-radius: 3px;
+  }
+  .order-box{
+  
+      width: 360px;
+      height: 620px;
+      margin: auto;
+      background-color: aliceblue;
+      border-radius: 3px ;
+  
+  }
+  .login-box{
+      width:360px;
+      height: 280px;
+      background-color: white;
+      margin: auto;
+      border-radius: 3px;
+  
+  
+  
+  
+  
+  
+  }
+  h1{
+      text-align: center;
+      padding-top: 15px;
+  
+  
+  
+  
+  }
+  h4{
+      text-align: center;
+  
+  
+  }
+  form{
+      width: 300px;
+      height: 100px;
+      margin-left: 20px;
+  
+  
+  }
+  form label{
+      display: flex;
+      margin-top: 20px;
+      font-size: 18px;
+  
+  }
+  form input{
+      width: 100%;
+      padding: 7px;
+      border:none ;
+      border:1px solid gray;
+      border-radius: 7px;
+      outline: none;
+  
+  
+  }
+  input[type="button"]{
+      width: 320px;
+      height:35px ;
+      margin-top: 20px;
+      border: none;
+      background-color: green;
+      color: white;
+      font-size: 15px;
+  
+  }
+  p{
+      text-align: center;
+      padding-top:20px;
+     
+  
+  
+  }
+  .searchInput{
+    border: solid green 3px;
+    border-radius: 5px;
+    width: 200px;
+    height: 30px;
+  }
+  
+  #para-2 a{
+      color: blue;
+  
+  
+  }
+    
