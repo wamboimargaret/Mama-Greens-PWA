@@ -1,0 +1,91 @@
+body{
+    background-color: gree;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0%;
+    width: 100%;
+
+}
+
+header {
+  background-color: #4CAF50;
+  color: #FFFFFF;
+  padding: 20px;
+  text-align: center;
+  margin: 0%;
+}
+/* Style the navigation menu */
+nav {
+  background-color: #333333;
+  color: #FFFFFF;
+  padding: 10px;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+nav ul li {
+  margin: 0 10%;
+}
+nav ul li a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+/* ////////////////////////////////*/
+
+
+#role{
+  display: flex;
+  justify-content: space-between;
+}
+section{
+  /* height: 100vh; */
+  margin: 2%;
+}
+#image1{
+  /* width: 95%; */
+  border-radius: 20px;
+  width: 80%;
+  margin-left: 5%;
+}
+#role2{
+  margin: 0% 20% 0% 10%;
+}
+#head1{
+  font-family: Arial, Helvetica, sans-serif;
+  /* margin-right: 25%; */
+}
+
+/* ///////////// */
+
+.person{
+    border: solid 4px green;
+    color: white;
+    background-color: green;
+    border-radius: 10px;
+    padding: 15px;
+    width: 200px;
+}
+.person a{
+  text-decoration: none;
+}
+
+.choose{
+    text-align: center;
+}
+.choose a{
+    color: white;
+    font-size: large;
+    font-style: none;
+}
+
+#head{
+    color: green;
+    
+}
+@media screen and (max-width:767px){
+}
