@@ -11,7 +11,7 @@ body{
 header {
   background-color: #4CAF50;
   color: #FFFFFF;
-  padding: 20px;
+  padding: 5px;
   text-align: center;
   margin: 0%;
 }
@@ -45,6 +45,11 @@ nav ul li a {
 section{
   /* height: 100vh; */
   margin: 2%;
+}
+#logo{
+    width: 50px;
+    border-radius: 100%;
+    margin-left: -90%;
 }
 #image1{
   /* width: 95%; */
