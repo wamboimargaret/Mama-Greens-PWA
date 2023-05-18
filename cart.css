@@ -1,6 +1,6 @@
 body{
     padding: 0px; 
-    border: solid 5px;
+    /* border: solid 5px; */
     border-radius: 20px;
     border-color: green;
     
@@ -71,11 +71,16 @@ ul li a{
     
     
 }
-.list{
+.list a{
 
-    font-size: 30px;
-    
-   
+    font-size: large;
+    color: black;
+
+}
+.list p{
+    margin-left: 18%;
+    text-decoration: none;
+    font-size: large;
 
 }
 .back{
@@ -156,14 +161,31 @@ button{
     color: white;
     background-color: green;
 }
+#total{
+    margin-left: 40%;
+    margin-top: 6%;
+    font-size: large;
+    color: green;
+}
+.searchInput1 {
+    width: 120px;
+    text-align: center;
+    border-radius: 5px;
+    height: 35px;
+    margin-left: 0%;
+    color: green;
+    background-color: white;
+    text-decoration: none;
+}
+
 .icontwo{
-margin-left: 85%;
-margin-top: -10px;
+margin-left: 0%;
+margin-top: -5px;
 size: 10px;
 
 }
 .iconone{
-    margin-left: 120px;
+    margin-left: 40%;
     margin-top: -5px;
 }
 span{
