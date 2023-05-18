@@ -84,7 +84,11 @@ header {
     color: #FFFFFF;
     text-decoration: none;
   }
-  
+  .iconone{
+    margin-left: 0%;
+    margin-top: -5px;
+    size: 20px;
+}
 
 
 
