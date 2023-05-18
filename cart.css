@@ -1,0 +1,166 @@
+body{
+    padding: 0px; 
+    border: solid 5px;
+    border-radius: 20px;
+    border-color: green;
+    
+    
+    /* background-image: url(image/carrot.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    backface-visibility: hidden; */
+    
+}
+header {
+    background-color: #4CAF50;
+    color: #FFFFFF;
+    padding: 20px;
+    text-align: center;
+  }
+  /* Style the navigation menu */
+  nav {
+    background-color: #333333;
+    color: #FFFFFF;
+    padding: 10px;
+  }
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  nav ul li {
+    margin: 0 10%;
+  }
+  nav ul li a {
+    color: #FFFFFF;
+    text-decoration: none;
+  }
+
+
+nav ul li{
+   margin-left: 250px;
+   list-style-type: none;
+}
+#quantity{
+    text-decoration: none;
+}
+#Item{
+    text-decoration: none;
+    list-style-type: none;
+}
+#pric{
+    text-decoration: none;
+}
+
+ul {
+    display: flex;
+    
+  
+   
+    
+}
+ul li a{
+    text-decoration: none;
+    
+    
+}
+.list{
+
+    font-size: 30px;
+    
+   
+
+}
+.back{
+   background-color: green;
+   padding-top: 50px;
+   padding-bottom: 20px;
+   
+
+}
+h1{
+    margin-top: -10px;
+    margin-left: 500px;
+}
+.images{
+display: grid;
+
+}
+.images img{
+    width: 200px;
+    margin-left: 200px;
+}
+.but{
+    margin-left: 42%;
+    margin-top: -88%;
+}
+ p{
+    margin-left: 64%;
+    
+}
+.price{
+    margin-top: -90px;
+}
+.but1{
+    margin-left: 42%;
+    margin-top: 20px;
+   /* margin-left: 42%;
+    margin-top: -88%;   */
+}
+.price1 p{
+   margin-top: -45px;
+   margin-top: -20px;
+   
+}
+.price2 {
+    margin-left: 30px;
+}
+.buttons{
+    margin-left: 42%;
+    margin-top: -400px;
+    
+}
+button{
+    padding: 10px;
+    border-color: green;
+    border: solid 3px;
+    border-radius: 7px;
+}
+.buty{
+
+    margin-top: 20px;
+}
+.pricing{
+    margin-left: 63%;
+    margin-top: -28%;
+    
+}
+.ksh{
+   margin-top: 17%; 
+   display: grid;
+}
+.move{
+    margin-top: 10%;
+    margin-left: 42%;
+}
+#check{
+    padding: 20px 50px;
+    color: white;
+    background-color: green;
+}
+.icontwo{
+margin-left: 85%;
+margin-top: -10px;
+size: 10px;
+
+}
+.iconone{
+    margin-left: 120px;
+    margin-top: -5px;
+}
+span{
+    color: white;
+}
