@@ -49,6 +49,31 @@ body{
     width: 200px;
     height: 30px;
 }
+.searchInput2{
+    border: solid green 3px;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    margin-top: 15%;
+}
+
+.product3{
+    /* border: 1px solid #dddddd; */
+    border-radius: 30px;
+    padding: 10px;
+    margin-top: 30px;
+    width: 40%;
+  }
+  .product4{
+    /* border: 1px solid #dddddd; */
+    border-radius: 30px;
+    padding: 10px;
+    margin-top: 20px;
+    width: 50%;
+  }
+
+
+
 search{
     /* text-align: center; */
     
@@ -89,8 +114,35 @@ header {
     margin-top: -5px;
     size: 20px;
 }
+.prodBorders{
+    border: solid white 3px;
+    background-color: whitesmoke;
+    /* margin: 10%; */
+    margin-left: 5%;
+    width: 70%;
+    height: 60%;
+    border-radius: 10px;   
+}
+.prodBorders1{
+    border: solid white 3px;
+    background-color: whitesmoke;
+    /* margin: 10%; */
+    /* margin-left: 10%; */
+    width: 90%;
+    height: 60%;
+    border-radius: 10px;   
+}
 
 
+/* .prodBorders:hover {
+    transform: scale(1.5);
+    } */
+ 
+
+/* .product1:hover {
+    transform: scale(1.1);
+    }
+ */
 
 
 

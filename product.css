@@ -49,13 +49,16 @@ body {
     padding: 30px 100px;
   }
   
-  .product {
+  .product3{
     border: 1px solid #dddddd;
     border-radius: 5px;
     padding: 10px;
-    margin-bottom: 20px;
+    margin-top: 20px;
     width: 120%;
   }
+
+
+
   
   .product img {
     max-width: 30%;
