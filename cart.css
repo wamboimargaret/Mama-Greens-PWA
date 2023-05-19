@@ -191,3 +191,12 @@ size: 10px;
 span{
     color: white;
 }
+.plus1{
+    background-color: white;
+    color: rgb(2, 2, 2);
+    border-radius: 5px;
+    width: 100px;
+    height: 20px;
+    font-size: large;
+
+}
