@@ -59,6 +59,7 @@ body {
   
   .product img {
     max-width: 30%;
+    border-radius: 7px;
   }
   
   .product h3 {
@@ -71,6 +72,7 @@ body {
 
   .section{
     display: flex;
+    /* flex-direction: row; */
     margin-left: -50px;
   }
 
@@ -78,10 +80,12 @@ body {
     body{
     display: grid;
     grid-template-columns: repeat(1, 1fr);
+    
     }
     }
     /* Mobile Responsive CSS */
     @media only screen and (max-width: 767px) {
+      
         .nav {
         flex-direction: column;
         margin-left: 0;
@@ -89,7 +93,9 @@ body {
         .nav li {
         padding: 10px;
         }
-      }
-      .section{
+         .section{
         display: table-row;
+        margin: 0;
       }
+      }
+    
