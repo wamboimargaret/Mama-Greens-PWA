@@ -28,9 +28,7 @@
     border: solid thin cadetblue;
     border-width: 10px;
     border-radius: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 5px;
+    
   }
   .proceed-to-checkout h2 {
     margin-bottom: 10px;
@@ -51,11 +49,7 @@
   .order-summary table td {
     padding: 5px;
   }
-  .customer-details input{
-    padding: 10px;
-    border-radius: 5px;
-    border: transparent;
-  }
+  
   .customer-details form input,
   .payment-methods input {
     margin-right: 5px;
@@ -90,9 +84,9 @@
   .icons i {
   font-size: 30px;
 
- color: black;
+  }
+  .icons button{
+    color: #4caf50;
     margin: 50px;
     margin-top: -90px;
   }
-  
-  
