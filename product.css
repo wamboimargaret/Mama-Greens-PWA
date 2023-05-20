@@ -294,4 +294,126 @@ section.our-services .card-wrapper{
 #submit:hover{
   background-image: linear-gradient(to left, green, green);
 }
+  
+@media screen and (max-width:768px) and (max-width:1023px) {
+  .service-card{
+    background:var(--heaven);
+    display: block;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px;
+    }
+    section.our-services{
+      margin-left: 0%;
+    }
+    .card-wrapper{
+      margin-left:0rem;
+      margin-top:-2rem;
+      margin-right: 100%;
+      display: block;
+      padding-top: 7px;
+      width: 80%;
+
+    }
+    #head3{
+      font-size: x-large;
+      margin-left: 0%;
+      display: block;
+    }
+    .img-responsive{
+      
+    }
+    .recBox{
+      
+    }
+
+    .productControl{
+      display: block;
+    }
+    .searchInput{
+      border: solid green 1px;
+      border-radius: 15px;
+      width: 200px;
+      height: 35px;
+      margin-left: 30%;
+    }
+    .toCart{
+      margin-left: 20%;
+    }
+
+    button{
+      color: #fff;
+      width: 50px;
+      padding: 1.5%;
+      text-align: center;
+      cursor: pointer;
+      border: transparent;
+      
+    }
+        
+    
+    
+      
+  
+  
+}
+@media screen and (max-width:767px){
+  .service-card{
+    background:var(--heaven);
+    display: block;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px;
+    }
+    section.our-services{
+      margin-left: 0%;
+    }
+    .card-wrapper{
+      margin-left:0rem;
+      margin-top:-2rem;
+      margin-right: 100%;
+      display: block;
+      padding-top: 7px;
+      width: 80%;
+
+    }
+    #head3{
+      font-size: x-large;
+      margin-left: 0%;
+      display: block;
+    }
+    .img-responsive{
+      
+    }
+    .recBox{
+      
+    }
+
+    .productControl{
+      display: block;
+    }
+    .searchInput{
+      border: solid green 1px;
+      border-radius: 15px;
+      width: 200px;
+      height: 35px;
+      margin-left: 30%;
+    }
+    .toCart{
+      margin-left: 20%;
+    }
+
+    button{
+      color: #fff;
+      width: 50px;
+      padding: 1.5%;
+      text-align: center;
+      cursor: pointer;
+      border: transparent;
+      
+    }
+
+
+  
+}
 
