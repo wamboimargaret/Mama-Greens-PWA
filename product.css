@@ -40,11 +40,11 @@ button{
   
 }
 .searchInput{
-  border: solid green 3px;
-  border-radius: 5px;
-  width: 200px;
-  height: 30px;
-  margin-left: 5%;
+  border: solid green 1px;
+  border-radius: 15px;
+  width: 300px;
+  height: 35px;
+  margin-left: 3%;
 }
 .head3{
 text-align: center;
@@ -79,7 +79,6 @@ button{
   border-radius: 5px;
   cursor: pointer;
   border: transparent;
-  
 }
 
 button:hover{
@@ -152,7 +151,7 @@ button a{
 }
 
 .topNav .navItems a:hover{
-  color: red;
+  /* color: red; */
 }
 
 

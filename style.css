@@ -52,12 +52,14 @@ margin: 0% 20% 0% 10%;
 #head1{
 font-family: Arial, Helvetica, sans-serif;
 color:rgb(19, 54, 19);
-margin-top: 65%;
+margin-top: 30%;
+font-size: 40px;
 /* margin-right: 25%; */
 }
 
 #head2{
 font-family: Arial, Helvetica, sans-serif;
+font-size: 40px;
 color:rgb(19, 54, 19);
 margin-top: 0%;
 /* margin-right: 25%; */
@@ -67,7 +69,7 @@ margin-top: 0%;
 /* ///////////// */
 
 .person{
-  border: solid 4px green;
+  border: solid 4px;
   color: white;
   background-color: green;
   border-radius: 10px;
