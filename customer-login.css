@@ -101,8 +101,9 @@ p{
 
 
 }
-#para-2 a{
-  color: rgb(8, 8, 8);
+.para-2 a{
+  color:blue;
+  text-decoration: none;
 
 
 }
