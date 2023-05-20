@@ -1,110 +1,118 @@
 body{
-    background-color: gree;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0%;
-    width: 100%;
-
-}
-
-header {
-  background-color: #4CAF50;
-  color: #FFFFFF;
-  padding: 5px;
-  text-align: center;
+    
+  background-size: 100%;
+  background-repeat: no-repeat;
+  font-family: Arial, Helvetica, sans-serif;
   margin: 0%;
+  width: 100vw;
+
 }
-/* Style the navigation menu */
-nav {
-  background-color: #333333;
-  color: #FFFFFF;
-  padding: 10px;
-}
+
+
 nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: center;
+list-style-type: none;
+margin: 0;
+padding: 0;
+display: flex;
+justify-content: center;
 }
 nav ul li {
-  margin: 0 10%;
+margin: 0 10%;
 }
 nav ul li a {
-  color: #FFFFFF;
-  text-decoration: none;
+color: #FFFFFF;
+text-decoration: none;
 }
 /* ////////////////////////////////*/
 
 
 #role{
-  display: flex;
-  justify-content: space-between;
+display: flex;
+justify-content: space-between;
 }
 section{
-  /* height: 100vh; */
-  margin: 2%;
+/* height: 100vh; */
+margin: 0%;
 }
 #logo{
-    width: 50px;
-    border-radius: 100%;
-    margin-left: -90%;
+  width: 50px;
+  border-radius: 100%;
+  margin-left: -90%;
 }
 #image1{
-  /* width: 95%; */
-  border-radius: 20px;
-  width: 80%;
-  margin-left: 5%;
+/* width: 95%; */
+border-radius: 20px;
+width: 100%;
+margin-left: 10%;
+margin-top: 20%;
 }
 #role2{
-  margin: 0% 20% 0% 10%;
+margin: 0% 20% 0% 10%;
 }
 #head1{
-  font-family: Arial, Helvetica, sans-serif;
-  /* margin-right: 25%; */
+font-family: Arial, Helvetica, sans-serif;
+color:rgb(19, 54, 19);
+margin-top: 65%;
+/* margin-right: 25%; */
 }
+
+#head2{
+font-family: Arial, Helvetica, sans-serif;
+color:rgb(19, 54, 19);
+margin-top: 0%;
+/* margin-right: 25%; */
+}
+
 
 /* ///////////// */
 
 .person{
-    border: solid 4px green;
-    color: white;
-    background-color: green;
-    border-radius: 10px;
-    padding: 15px;
-    width: 200px;
+  border: solid 4px green;
+  color: white;
+  background-color: green;
+  border-radius: 10px;
+  padding: 15px;
+  width: 200px;
 }
 .person a{
-  text-decoration: none;
+text-decoration: none;
 }
 
 .choose{
-    text-align: center;
+  text-align: center;
 }
 .choose a{
-    color: white;
-    font-size: large;
-    font-style: none;
+  color: white;
+  font-size: large;
+  font-style: none;
 }
 
 #head{
-    color: green;
-    
+  color: green;
+  
+}
+body{
+margin: 0%;
+}
+#named{
+font-size: 30px;
+text-align: center;
+/* margin-right: 99%; */
 }
 
+
 @media only screen and(max-width:700px) {
-  body{
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
+body{
+display: grid;
+grid-template-columns: repeat(1, 1fr);
+}
+}
+@media only screen and (max-width: 767px) {
+  .nav {
+  flex-direction: column;
+  margin-left: 0;
   }
+  .nav li {
+  padding: 10px;
   }
-  @media only screen and (max-width: 767px) {
-    .nav {
-    flex-direction: column;
-    margin-left: 0;
-    }
-    .nav li {
-    padding: 10px;
-    }
-  }
+}
