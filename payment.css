@@ -47,7 +47,7 @@ body{
   }
   .login-box{
       width:360px;
-      height: 280px;
+      height: 450px;
       background-color: white;
       margin: auto;
       border-radius: 3px;
@@ -58,6 +58,7 @@ body{
   
   
   }
+  
   h1{
       text-align: center;
       padding-top: 15px;
@@ -117,6 +118,13 @@ body{
     width: 200px;
     height: 30px;
   }
+  .searchInput2{
+    border: solid green 3px;
+    border-radius: 5px;
+    width: 180px;
+    height: 10px;
+  }
+
   
   #para-2 a{
       color: blue;

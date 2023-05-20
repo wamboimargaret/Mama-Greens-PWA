@@ -4,28 +4,88 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mama -green</title>
-    <link rel="stylesheet" href="customer-signup.css">
+    <title>Checkout and Payment</title>
+    <link rel="stylesheet" href="order.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 <body>
-    <div class="order-box">
-        <h1>Order</h1>
-        <h4>Its quick and only takes a second to confirm </h4>
-        <form>
-             <label>Address</label>
-             <input type="text" placeholder="nkorongo" >
-             <label>Mobile no</label>
-             <input type="text" placeholder="0757589859" >
-             <label>summary of items</label>
-             <input type="password" placeholder="" >
-             <label>Total amount</label>
-             <input type="password" placeholder="" >
-             <input type="button" value ="Proceed to payment">
-        </form>
-        <!-- <P id="para-2">Already have an account? <a href="login.html">Login here</a></P> -->
+    <header>
+        <img id="logo" src="/images/mama greens.jpg">
+          <span><h1>Mama Greens</h1></span>
+        </header>
+    <div class="proceed-to-checkout">
+        <h2>Proceed to Checkout</h2>
 
-    
-    </div>
-   
+        <div class="flex">
+        <div class="customer-details">
+          <h3>Customer Information</h3>
+          <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" required placeholder="MamaBen">
+      
+            <label for="email">Email:</label>
+            <input type="email" id="email"  placeholder="mamaben@gmail.com">
+      
+            <label for="address">Address:</label>
+            <input type="text" id="address" required placeholder="616, Korongo, Karen">
+          </form>
+        </div>
+        
+        <div class="order-summary">
+          <h3>Order Summary</h3>
+          <table>
+            <thead>
+              <tr>
+                <th>Product</th>
+                <th>Price</th>
+                <th>Quantity</th>
+                <th>Subtotal</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Parsley</td>
+                <td>109.00=</td>
+                <td>1</td>
+                <td>109.00/=</td>
+              </tr>
+              <tr>
+                <td>Strawberry</td>
+                <td>200.00/=</td>
+                <td>3</td>
+                <td>600.00/=</td>
+              </tr>
+              <tr>
+                <td>Garlic</td>
+                <td>70.50/=</td>
+                <td>3</td>
+                <td>141.00/=</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+</div>
+        <div class="payment-options">
+          <h3>Payment Options</h3>
+          <div class="payment-methods">
+            <input type="radio" id="credit-card" name="payment-method" checked>
+            <label for="credit-card">M-Pesa</label>
+      
+            <input type="radio" id="paypal" name="payment-method">
+            <label for="paypal">Cash on delivery</label>
+          </div>
+          <button class="checkout-btn">Place Order</button>
+        </div>
+      </div>
+     
+      <div class="icons">
+        <a ><button><i class="fa fa-home" aria-hidden="true"></i></button></a>
+        <a href="/cart.html"><button><i class="fa fa-cart-plus" aria-hidden="true"></i></button></a>
+      </div>
+
+
+
 </body>
 </html>
