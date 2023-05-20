@@ -4,147 +4,277 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="product.css">
+    <title>Product Page</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link rel="stylesheet" href="product.css">
 </head>
 <body>
-    <header>
-      <img id="logo" src="/images/mama greens.jpg">
-        <h1>Mama Greens</h1>
-      </header>
-  
-      <nav>
-        <ul>
-          <li><a href="/index.html">Home</a></li>
-          <li><a href="/Uploads/upload.html">Update Stock</a></li>
-          <li><a href="/seeorder/seeorder.html">Manage Orders</a></li>
-          <li><a href="/mama-mboga-login/login.html">Account</a></li>
-          <li><a href="/seeorder/seeorder.html"><i class="fa fa-bell" aria-hidden="true"></i></a></li>
-        </ul>
-      </nav>
+    
+    <section class="navBar">
+        <div class="topNav">
 
-  <div class="section">
-      <section>
-        <div class="product">
-          <img src="/images/onions.jpg" alt="Product 1">
-          <h3>Onion</h3>
-          <p>Onions from Uganda</p>
-          <p>Price: Ksh40.00</p>
+            <div>
+                <img id="logoPic" src="images/mama greens.jpg" alt="">
+
+            </div>
+
+            <div class="logo">
+                <p><span>Mama Greens</span></p>
+            </div>
+            
+            
+            <div class="navItems">
+                <!-- <a href="signup.html"> Sign Up</a> -->
+                <a href="index.html">Home</a>
+                <a href="product.html">product</a>
+                <a href="order.html">Cart</a>
+                <a href="checkout.html">Checkout</a>
+            </div>
         </div>
-  
-        <div class="product">
-          <img src="/images/tomatoes.jpg" alt="Product 2">
-          <h3>Tomato</h3>
-          <p>Ripe tomatoes</p>
-          <p>Price: Ksh50.00</p>
+    </section>
+    
+        <h1 class="text-center" >Products</h1>
+        <p class="text-center" >
+            <br>
+            When you need to feed the family or kids, turn to Mama Greens<br> 
+            <br> 
+            With lots of healthy, affordble, products just clicks away</p>
+            <br><br><br>
+    </div>
+
+
+    <section class="our-services">
+        <div class="container">
+            <div class="card-wrapper">
+                <div class="service-card">
+                    <i id="iconicas" class="fa fa-motorcycle fa-4x" aria-hidden="true"></i>
+
+                    <h2>Free Home delivery</h2>
+                    <p>Order and it shall be delivered.</p><br><br>
+                    <button class="btn btn-secondary">Read More</button>
+                </div>
+                <div class="service-card">
+                    <i id="iconicas" class="fa fa-link fa-4x" aria-hidden="true"></i>
+                    <h2 class="text-primary">Reliable</h2>
+                    <p>The quality is unmatched. Shop with the best</p><br><br>
+                    <button class="btn btn-primary">Read More</button>
+                </div>
+                <div class="service-card">
+                    <i id="iconicas" class="fa fa-sitemap fa-4x" aria-hidden="true"></i>
+                    <h2>Categorised shopping</h2>
+                    <p>A collection of fruits and vegetables</p><br><br>
+                    <button class="btn btn-secondary">Read More</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product section --> 
+    <br><br>
+    <div id="head3">  
+        <label class="head3">Search Products</label>
+        <input type="text" class="searchInput" placeholder="                mango"> 
+        <br><br>
+    
+    <br><br><br>
+    <h1 class="text-center" >Fruits</h1><br>
+    <div class="productHead">
+
+        <p class="text-center" >
+            Get Nutritious fruits from Mama Greens</p>
+    </div>
+
+    <section class="product" id="product">
+
+
+        <div class="productMain">
+
+
+
+
+                
+
+
+            <div class="productControl">
+                <div class="productBox">
+                    <div class="recBox">
+                        <img class="img-responsive" src="images/banana.jpg" alt="">
+
+                        <div class="imgDesc">
+                            <h2>Banana</h2>
+                            <p>Bananas - Kampala (Appx. 6 Pieces) Per Kg</p>
+                            <br>
+                            <p> Price: 100/=</p>
+                            <div class="flex justify-center">
+                                <br>                   
+                                 <button class="btn btn-secondary">Add to Cart</button>
+
+                                
+                                
+                            </div>
+
+
+
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <div class="productBox">
+                    <div class="recBox">
+                        <img class="img-responsive"  src="images/nyanya.jpg" alt="">
+
+                        <div class="imgDesc">
+                            <br>
+                            <h2>Tomato</h2>
+                            <p>Tomatoes - Kericho (Appx. 5 Pieces) Per Kg</p>
+                            <p>Price: 100/=</p><br><br>
+                            <div class="flex justify-center">
+                                <button class="btn btn-secondary">Add to Cart</button>
+                            </div>
+
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <div class="productBox">
+                    <div class="recBox">
+                        <img class="img-responsive"  src="images/APPLE.jpg" alt="">
+
+                        <div class="imgDesc">
+                            <br><br>
+                            <h2>Apple</h2>
+                            <p>Apples -  (Appx Per Apple)</p>
+                            <p>Price: 60/=</p><br><br><br>
+                            <div class="flex justify-center">
+                                <button class="btn btn-secondary">Add to Cart</button>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    
+                </div>
+                
+
+            </div>
+
         </div>
 
-        <div class="product">
-          <img src="/images/carrots.jpg" alt="Product 2">
-          <h3>Tomato</h3>
-          <p>Fresh carrots</p>
-          <p>Price: Ksh20.00</p>
-        </div>
 
-        <div class="product">
-          <img src="/images/beetroots.jpg" alt="Product 2">
-          <h3>Tomato</h3>
-          <p>Fresh Beetroots</p>
-          <p>Price: Ksh20.00</p>
-        </div>
+    </section>
+    <!--             section2 -->
+    <div class="productHead"><br>
+        <h1 class="text-center" >Vegetables</h1><br>
+        <p class="text-center" >
+            Get Nutritious Vegetables from Mama Greens</p>
 
-        <div class="product">
-          <img src="/images/potatoes.jpg" alt="Product 2">
-          <h3>Tomato</h3>
-          <p>New bale of Potatoes</p>
-          <p>Price: Ksh20.00</p>
+    </div>
+
+
+
+    <section class="product" id="product">
+
+
+        <div class="productMain">
+
+
+
+            <div class="productControl">
+                <div class="productBox">
+                    <div class="recBox">
+                        <img class="img-responsive" src="images/kales.jpg" alt="">
+
+                        <div class="imgDesc">
+                            <h2>Kales</h2> 
+                            <p>Kales - Mirikiti(Appx. 6 Leaves) Per Bag</p>
+                            <p> Price: 20/=</p>
+                            <div class="flex justify-center">
+                                <br><br>
+                                <button class="btn btn-secondary">Add to Cart</button>
+                            </div>
+
+
+
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <div class="productBox">
+                    <div class="recBox">
+                        <img class="img-responsive"  src="images/cabbage.jpg" alt="">
+
+                        <div class="imgDesc">
+                            <br>
+                            <h2>cabbage</h2>
+                            <p>Cabbage - Mirikiti(Appx. 6 Leaves) Per Bundle</p>
+
+                            <p>Price: 50/=</p><br><br><br>
+                            <div class="flex justify-center">
+                                <button>Add to Cart</button>
+                            </div>
+
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <div class="productBox">
+                    <div class="recBox">
+                        <img class="img-responsive"  src="images/kales.jpg" alt="">
+
+                        <div class="imgDesc">
+                            <h2>Spinach</h2>
+                            
+                            <p>Spinach - Mirikiti(Appx. 6 Leaves) Per Bag</p>
+
+                            <p>Price: 60/=</p><br><br>
+                            <div class="flex justify-center">
+                                <button class="btn btn-secondary">Add to Cart</button>
+                            </div>
+
+                        </div>
+                    </div>
+                    
+                </div>
+
+            </div>
+
         </div>
-  
         
-      </section>
-
-
-
-      <section>
-        <div class="product">
-          <img src="/images/onions.jpg" alt="Product 1">
-          <h3>Onion</h3>
-          <p>Description of product 1</p>
-          <p>Price: Ksh10.00</p>
-        </div>
-  
-        <div class="product">
-          <img src="/images/tomatoes.jpg" alt="Product 2">
-          <h3>Tomato</h3>
-          <p>Ripe tomatoes</p>
-          <p>Price: Ksh20.00</p>
-        </div>
-
-        <div class="product">
-          <img src="/images/carrots.jpg" alt="Product 2">
-          <h3>Tomato</h3>
-          <p>Fresh carrots</p>
-          <p>Price: Ksh20.00</p>
-        </div>
-
-        <div class="product">
-          <img src="/images/beetroots.jpg" alt="Product 2">
-          <h3>Tomato</h3>
-          <p>Fresh Beetroots</p>
-          <p>Price: Ksh20.00</p>
-        </div>
-
-        <div class="product">
-          <img src="/images/potatoes.jpg" alt="Product 2">
-          <h3>Tomato</h3>
-          <p>New bale of Potatoes</p>
-          <p>Price: Ksh20.00</p>
-        </div>
-  
         
-      </section>
+        <div class="productHead">
+            <br>
+
+        </div>
+        
 
 
-      <section>
-        <div class="product">
-          <img src="/images/onions.jpg" alt="Product 1">
-          <h3>Onion</h3>
-          <p>Description of product 1</p>
-          <p>Price: Ksh10.00</p>
-        </div>
-  
-        <div class="product">
-          <img src="/images/tomatoes.jpg" alt="Product 2">
-          <h3>Tomato</h3>
-          <p>Ripe tomatoes</p>
-          <p>Price: Ksh20.00</p>
-        </div>
 
-        <div class="product">
-          <img src="/images/carrots.jpg" alt="Product 2">
-          <h3>Tomato</h3>
-          <p>Fresh carrots</p>
-          <p>Price: Ksh20.00</p>
-        </div>
 
-        <div class="product">
-          <img src="/images/beetroots.jpg" alt="Product 2">
-          <h3>Tomato</h3>
-          <p>Fresh Beetroots</p>
-          <p>Price: Ksh20.00</p>
-        </div>
+    </section>
 
-        <div class="product">
-          <img src="/images/potatoes.jpg" alt="Product 2">
-          <h3>Tomato</h3>
-          <p>New bale of Potatoes</p>
-          <p>Price: Ksh20.00</p>
-        </div>
-  
-      </section>
-</div>
+    <!-- <button class="btn btn-secondary">Proceed to Cart</button> -->
+
+    <div>
+    <button class="toCart" id="submit">
+
+        <p><a href="order.html"> Cart</a>
+            </p>    
+    </button>
+    </div>
+
+
+    <br><br><br><br><hr>
+
+
+
+
+
 
 </body>
 </html>
