@@ -154,7 +154,9 @@ button a{
   /* color: red; */
 }
 
-
+.button-cart button{
+  padding: 0px 20px;
+}
 
 
 
