@@ -1,7 +1,5 @@
 body{
-    /* background-image: url("images/background.jpg");
-    background-repeat: no-repeat;
-    background-size: cover; */
+   
     font-family:Arial, Helvetica, sans-serif;
     background-color: aliceblue;
 }
@@ -246,3 +244,56 @@ body{
   .content-item .btn:hover {
     background-color: #45a049;
   }
+
+  /* Tablets and Small Desktops (481px to 768px) */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  #logo {
+    margin-left: -80%;
+  }
+
+  header h1 {
+    margin-top: -6%;
+  }
+.sidebar h2{
+  font-size: 1px;
+}
+.sidebar h1{
+  font-size: 15px;
+}
+.sidebar li{
+  padding: 5px;
+}
+  .sidebar {
+    width: 100px;
+    padding: 10px;
+
+  }
+
+  .metric {
+    flex-basis: 100%;
+    padding: 40px;
+  }
+}
+
+/* Large Desktops (769px and above) */
+@media only screen and (min-width: 769px) {
+  #logo {
+    margin-left: -90%;
+  }
+
+  header h1 {
+    margin-top: -4%;
+  }
+
+  .sidebar {
+    width: 300px;
+    padding: 20px;
+  }
+ .content{
+display: grid;
+}
+  .metric {
+    flex-basis: calc(50% - 10px);
+    padding: 50px;
+  }
+}
