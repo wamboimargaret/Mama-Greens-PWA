@@ -1,0 +1,248 @@
+body{
+    /* background-image: url("images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; */
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: aliceblue;
+}
+
+#logo{
+    width: 50px;
+    margin-left: -90%;
+    border-radius: 100%;
+    margin-top: 25px;
+  }
+  /* Style the header */
+  header {
+    background-color: #4caf50;
+    color: #ffffff;
+    padding: 5px;
+    text-align: center;
+  }
+ header h1{
+    margin-top: -4%;
+ }
+
+.dashboard {
+    display: flex;
+  }
+  
+  .sidebar {
+    width: 200px;
+    background-color: gainsboro;
+    padding: 20px;
+    
+  }
+  
+  .sidebar h1 {
+    margin-bottom: 20px;
+  }
+  
+  .sidebar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .sidebar li {
+    margin-bottom: 10px;
+    padding: 22px;
+  }
+  
+  .sidebar li a {
+    text-decoration: none;
+    color: #333;
+    
+  }
+  
+  .content {
+    flex-grow: 1;
+    padding: 20px;
+  }
+  
+  h2 {
+    margin-top: 0;
+  }
+  
+  /* dashboard */
+  .dashboard {
+    display: flex;
+  }
+  
+  .sidebar {
+    width: 200px;
+    background-color: #f0f0f0;
+    padding: 20px;
+  }
+  
+  .sidebar h1 {
+    margin-bottom: 20px;
+  }
+  
+  .sidebar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .sidebar li {
+    margin-bottom: 10px;
+  }
+  
+  .sidebar li a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .content {
+    flex-grow: 1;
+    padding: 20px;
+  }
+  
+  h2 {
+    margin-top: 0;
+  }
+  
+  /* Dashboard Overview */
+  #overview .overview-content {
+    display: flex;
+    /* flex-wrap: wrap; */
+    gap: 20px;
+  }
+  
+  .metric {
+    flex-basis: calc(50% - 10px);
+    background-color: #f9f9f9;
+    padding: 50px;
+    border-radius: 4px;
+  }
+  
+  .metric h3 {
+    margin: 0;
+    font-size: 16px;
+    color:#4caf50;
+  }
+  
+  .metric p {
+    margin: 10px 0 0;
+    font-size: 24px;
+    color: #666;
+  }
+  /* ORDERS */
+ 
+  
+  /* Styles for Order Management section */
+  #orders h2 {
+    margin-top: 50px;
+    color: #4caf50;
+  }
+  #orders .order-content {
+    margin-top: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px;
+  }
+  
+  thead {
+    background-color: gainsboro;
+  }
+  
+  thead th {
+    padding: 10px;
+    text-align: left;
+    font-weight: bold;
+  }
+  
+  tbody td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  tbody tr:last-child td {
+    border-bottom: none;
+  }
+  
+  /* INVENTORY */
+
+  /* Styles for Inventory Management section */
+  #inventory h2{
+    margin-top: 50px;
+    color: #4caf50;
+  }
+#inventory .inventory-content {
+    margin-top: 20px;
+  }
+  
+  tbody td.status {
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  
+  #in-stock {
+    color: green;
+  }
+  
+  #out-of-stock {
+    color: red;
+  }
+  
+  #low-stock {
+    color: orange;
+  }
+
+  /* Customer */
+#customers h2{
+    margin-top: 50px;
+    color: #4caf50;   
+}
+  #customers .customer-content {
+    margin-top: 20px;
+  }
+  
+  tbody td.orders {
+    text-align: center;
+  }
+  
+  /* content management */
+  /* Styles for Content Management section */
+  #content h2{
+    margin-top: 50px;
+    color: #4caf50;  
+  }
+#content .content-content {
+    margin-top: 20px;
+  }
+  
+  .content-item {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+  }
+  
+  .content-item h3 {
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .content-item p {
+    margin: 10px 0;
+    color: #666;
+  }
+  
+  .content-item .btn {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .content-item .btn:hover {
+    background-color: #45a049;
+  }

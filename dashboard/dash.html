@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mama mboga</title>
+     <link rel="stylesheet" href="dash.css"> 
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <header>
+        <img id="logo" src="/images/mama greens.jpg">
+          <span><h1>Mama Greens</h1></span>
+        </header>
+
+  <div class="dashboard">
+    <div class="sidebar">
+      <h1>Dashboard</h1>
+      <ul>
+        <li><a href="#overview">Dashboard Overview</a></li>
+        <li><a href="#orders">Order Management</a></li>
+        <li><a href="#inventory">Inventory Management</a></li>
+        <li><a href="#customers">Customer Management</a></li>
+        <li><a href="#content">Manage Products</a></li>
+      </ul>
+    </div>
+    <!-- DASHBOARD SECTION -->
+    <div class="content">
+        <section id="overview">
+            <h2>Dashboard Overview</h2>
+            <div class="overview-content">
+              <div class="metric">
+                <h3>Total Sales  <i class="fa fa-tags" aria-hidden="true"></i></h3>
+                <p>10,000/=</p>
+              </div>
+              <div class="metric">
+                <h3>Revenue  <i class="fa fa-line-chart" aria-hidden="true"></i></h3>
+                <p>8,500/=</p>
+              </div>
+              <div class="metric">
+                <h3>Orders  <i class="fa fa-shopping-basket" aria-hidden="true"></i></h3>
+                <p>250</p>
+              </div>
+              <div class="metric">
+                <h3>Visitors  <i class="fa fa-users" aria-hidden="true"></i></h3>
+                <p>1,500</p>
+              </div>
+            </div>
+          </section>
+          
+<!-- ORDER SECTION -->
+          <section id="orders">
+            <h2>Order Management</h2>
+            <div class="order-content">
+              <table>
+                <thead>
+                  <tr>
+                    <th>Order ID</th>
+                    <th>Customer Name</th>
+                    <th>Order Date</th>
+                    <th>Status</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>001</td>
+                    <td>Henry Oloo</td>
+                    <td>2023-05-19</td>
+                    <td>Processing</td>
+                  </tr>
+                  <tr>
+                    <td>002</td>
+                    <td>Florence Nyokabi</td>
+                    <td>2023-05-18</td>
+                    <td>Shipped</td>
+                  </tr>
+                  <tr>
+                    <td>003</td>
+                    <td>Mama Brayo</td>
+                    <td>2023-05-19</td>
+                    <td>Processing</td>
+                  </tr>
+                  <tr>
+                    <td>004</td>
+                    <td>Baba Kevo</td>
+                    <td>2023-05-18</td>
+                    <td>Shipped</td>
+                  </tr>
+
+                </tbody>
+              </table>
+            </div>
+          </section>
+
+          <!-- INVENTORY -->
+
+          <section id="inventory">
+            <h2>Inventory Management</h2>
+            <div class="inventory-content">
+              <table>
+                <thead>
+                  <tr>
+                    <th>Product</th>
+                    <th>Quantity</th>
+                    <th>Price</th>
+                    <th>Status</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Potatoes</td>
+                    <td>3bags</td>
+                    <td>80/=</td>
+                    <td id="in-stock">In Stock</td>
+                  </tr>
+                  <tr>
+                    <td>Kales</td>
+                    <td>1bag</td>
+                    <td>30/=</td>
+                    <td id="low-stock">In Stock</td>
+                  </tr>
+
+                  <tr>
+                    <td>Tomatoes</td>
+                    <td>3crates</td>
+                    <td>20/=</td>
+                    <td id="in-stock">In Stock</td>
+                  </tr>
+                  <tr>
+                    <td>Carrots</td>
+                    <td>1bag</td>
+                    <td>30/=</td>
+                    <td id="out-of-stock">out of Stock</td>
+                  </tr>
+                  
+                </tbody>
+              </table>
+            </div>
+          </section>
+          
+<!-- Customer -->
+<section id="customers">
+    <h2>Customer Management</h2>
+    <div class="customer-content">
+      <table>
+        <thead>
+          <tr>
+            <th>Customer ID</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Orders</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>001</td>
+            <td>Henry Oloo</td>
+            <td>henry.oloo@gmail.com</td>
+            <td>10</td>
+          </tr>
+          <tr>
+            <td>002</td>
+            <td>Florence Nyokabi</td>
+            <td>flo@gmail.com</td>
+            <td>5</td>
+          </tr>
+          <tr>
+            <td>003</td>
+            <td>Mama Kevo</td>
+            <td>mamakevo@gmail.com</td>
+            <td>100</td>
+          </tr>
+          <tr>
+            <td>004</td>
+            <td>Mama Brayo</td>
+            <td>mamabrayo@yahoo.com</td>
+            <td>150</td>
+          </tr>
+          
+        </tbody>
+      </table>
+    </div>
+  </section>
+  
+  <section id="content">
+    <h2>Manage Products</h2>
+    <div class="content-content">
+      <div class="content-item">
+        <h3>Homepage Banner</h3>
+        <p>Upload a new banner image for the homepage.</p>
+        <button class="btn">Upload</button>
+      </div>
+      <div class="content-item">
+        <h3>Products</h3>
+        <p>Add products for your online store.</p>
+        <button class="btn">Manage Categories</button>
+      </div>
+     
+    </div>
+  </section>
+  
+    
+    </div>
+  </div>  
+</body>
+</html>
