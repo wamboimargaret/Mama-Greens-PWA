@@ -16,9 +16,21 @@
         </header>
 
   <div class="dashboard">
+    <!-- <div class="sidebar"> -->
+      <!-- <h1>Dashboard</h1> -->
+      <!-- <ul> -->
+        <!-- <li><a href="#overview">Dashboard Overview</a></li> -->
+        <!-- <li><a href="#orders">Order Management</a></li> -->
+        <!-- <li><a href="#inventory">Inventory Management</a></li> -->
+        <!-- <li><a href="#customers">Customer Management</a></li> -->
+        <!-- <li><a href="#content">Manage Products</a></li> -->
+      <!-- </ul> -->
+    <!-- </div> -->
+
     <div class="sidebar">
       <h1>Dashboard</h1>
-      <ul>
+      <button class="hamburger">&#9776;</button>
+      <ul class="menu">
         <li><a href="#overview">Dashboard Overview</a></li>
         <li><a href="#orders">Order Management</a></li>
         <li><a href="#inventory">Inventory Management</a></li>
@@ -203,6 +215,23 @@
   
     
     </div>
-  </div>  
+  </div> 
+
+  
+   <script>
+    const hamburger = document.querySelector('.hamburger');
+    const menu = document.querySelector('.menu');
+    
+    hamburger.addEventListener('click', () => {
+      menu.classList.toggle('show');
+    });
+    </script>
+    
+  
+
+
+
+
+
 </body>
 </html>
