@@ -1,176 +1,179 @@
 body{
-  background-image: url(images/back.jpg);
-  background-size: 100%;
-  background-repeat: no-repeat;
-  font-family: Arial, Helvetica, sans-serif;
+ background-image: url(images/back.jpg);
+ background-size: 100%;
+ background-repeat: no-repeat;
+ font-family: Arial, Helvetica, sans-serif;
 
-}
-.signup-box{
-  width: 360px;
-  height: 720px;
-  margin: auto;
-  background-color: aliceblue;
-  border-radius: 3px;
-}
-.order-box{
 
-  width: 360px;
-  height: 620px;
-  margin: auto;
-  background-color: aliceblue;
-  border-radius: 3px ;
-
-}
-.login-box{
-  width:360px;
-  height: 280px;
-  background-color: white;
-  margin: auto;
-  border-radius: 3px;
 }
 
 
 
-#named{
-    font-size: 60px;
-    text-align: center;
-    /* color: rgb(11, 44, 11); */
-    color: green;
+
+@media only screen and (max-width: 600px) {
+.topNav {
+
+
+ flex-direction: row; 
+
+
+}
+
+
+.navItems a {
+font-size: 14px;
+float: left;
+display:grid;
+
+
+}
+}
+
+
+
+
+.signup-box {
+ width: 360px;
+ height: 720px;
+ margin: auto;
+ background-color: aliceblue;
+ border-radius: 3px;
+}
+
+
+.order-box {
+ width: 360;
+ height: 620px;
+ margin: auto;
+ background-color: aliceblue;
+ border-radius: 3px;
+}
+
+
+.login-box {
+ width: 360px;
+ height: 280px;
+ background-color: white;
+ margin: auto;
+ border-radius: 3px;
+}
+
+
+h1 {
+ text-align: center;
+ padding-top: 15px;
+}
+
+
+h4 {
+ text-align: center;
+}
+
+
+form {
+ width: 300px;
+ margin-left: 20px;
+}
+
+
+form label {
+ display: flex;
+ margin-top: 20px;
+ font-size: 18px;
+}
+
+
+form input {
+  width: 90%;
+ padding: 7px;
+ border: none;
+ border: 1px solid gray;
+ border-radius: 7px;
+ outline: none;
+}
+
+
+input[type="button"] {
+ width: 320px;
+ height: 35px;
+ margin-top: 20px;
+ border: none;
+ background-color: green;
+ color: white;
+ font-size: 15px;
+}
+
+
+p {
+ text-align: center;
+ padding-top: 20px;
+}
+
+
+#para-2 a {
+ color: blue;
+}
+
+
+/* media queries */
+@media only screen and (max-width: 600px) {
+ .signup-box,
+ .order-box,
+ .login-box {
+   width: 100%;
+   height: auto;
+ }
+
+
+ form {
+   width: 90%;
+   margin-left: 5%;
+ }
+
+
+ input[type="button"] {
+   width: 90%;
+ }
+}
+
+
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+ .signup-box,
+ .order-box,
+ .login-box {
+   width: 50%;
+   height: auto;
+ }
+
+
+ form {
+   width: 90%;
+   margin-left: 5%;
+ }
+
+
+ input[type="button"] {
+   width: 90%;
+ }
+}
+
+
+@media only screen and (min-width: 901px) {
+ .signup-box,
+ .order-box,
+ .login-box {
+   width: 30%;
+   height: auto;
+ }
+
+
+ form {
+   width: 90%;
+   margin-left: 5%;
   }
-  
 
 
-h1{
-  text-align: center;
-  padding-top: 15px;
-
-
-
-
-}
-h4{
-  text-align: center;
-
-
-}
-form{
-  width: 300px;
-  margin-left: 20px;
-
-
-}
-form label{
-  display: flex;
-  margin-top: 20px;
-  font-size: 18px;
-
-}
-form input{
-  width: 100%;
-  padding: 7px;
-  border:none ;
-  border:1px solid gray;
-  border-radius: 7px;
-  outline: none;
-
-
-}
-input[type="button"]{
-  width: 320px;
-  height:35px ;
-  margin-top: 20px;
-  border: none;
-  background-color: green;
-  color: white;
-  font-size: 15px;
-
-}
-.searchInput{
-  border: solid green 3px;
-  border-radius: 5px;
-  color: white;
-  background-color: green;
-  width: 300px;
-  height: 30px;
-}
-
-p{
-  text-align: center;
-  padding-top:20px;
- 
-
-
-}
-.para-2 a{
-  color:blue;
-  text-decoration: none;
-
-
-}
-
-header {
-  background-color: #4CAF50;
-  color: #FFFFFF;
-  padding: 20px;
-  text-align: center;
-}
-/* Style the navigation menu
-nav {
-  background-color: #333333;
-  color: #FFFFFF;
-  padding: 10px;
-} */
-nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-}
-nav ul li {
-  margin: 0 10%;
-}
-nav ul li a {
-  color: #FFFFFF;
-  text-decoration: none;
-}
-
-@media screen and (max-width:767px){
-  .signup-box{
-      width: 100%;
-      
-  }
-  .order-box{
-  width: 100vw;
-  height: 10vh;        
-  margin: auto;
-  background-color: rgb(52, 120, 180);
-  border-radius: 3px ;
-  
-  }
-  form{
-      width: 300px;
-      margin-left: 10px;   
-  
-  }
-  
-    /* Style the navigation menu */
-    nav {
-      background-color: #333333;
-      width: 100vw;
-      color: #FFFFFF;
-      padding: 10px;
-    }
-    nav ul {
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
-      display: flex;
-      justify-content: center;
-    }
-    nav ul li {
-      margin: 0 10px;
-    }
-    
-
+  input[type="button"] {
+    width: 90%;
+ }
 }
