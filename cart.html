@@ -16,86 +16,143 @@
           <span><h1>Mama Greens</h1></span>
         </header>
         
-    <div class="shopping-cart">
-        <h2> Shopping Cart <i class="fa fa-shopping-cart" aria-hidden="true"></i></h2>
-        <p>You have 3 items in your cart</p>
-        <table class="cart-items">
-          <thead>
-            <tr>
-              <th>Product</th>
-              <th>Price</th>
-              <th>Quantity</th>
-              <th>Subtotal</th>
-              <th></th>
-            </tr>
-          </thead>
-          <tbody>
+    <!-- <div class="shopping-cart"> -->
+        <!-- <h2 id="sho"> Shopping Cart <i class="fa fa-shopping-cart" aria-hidden="true"></i></h2> -->
+        <!-- <p >You have 3 items in your cart</p> -->
+        <!-- <table class="cart-items"> -->
+          <!-- <thead> -->
+            <!-- <tr class="products"> -->
+              <!-- <th>Product</th> -->
+              <!-- <th>Price</th> -->
+              <!-- <th>Quantity</th> -->
+              <!-- <th>Subtotal</th> -->
+<!--                -->
+            <!-- </tr> -->
+          <!-- </thead> -->
+          <!-- <tbody> -->
 
-            <tr class="cart-item">
-              <td>
-                <img src="/images/parsley.jpg" alt="Product Image">
-                <div class="item-info">
-                  <h3>Parsley</h3>
-                  <p>Fresh and leafy</p>
-                </div>
-              </td>
-              <td>109.99/=</td>
-              <td>
-                <div class="quantity">
-                    <input type="number" value="1">
-                </div>
-              </td>
-              <td>109.99/=</td>
-              <td><button class="remove-item"><i class="fa fa-trash" aria-hidden="true"></i></button></td>
-            </tr>
+            <!-- <tr class="cart-item"> -->
+              <!-- <td> -->
+                <!-- <img src="/images/parsley.jpg" alt="Product Image"> -->
+                <!-- <div class="item-info"> -->
+                  <!-- <h3>Parsley</h3> -->
+                  <!-- <p>Fresh and leafy</p> -->
+                <!-- </div> -->
+              <!-- </td> -->
+              <!-- <td>109.99/=</td> -->
+              <!-- <td> -->
+                <!-- <div class="quantity"> -->
+                    <!-- <input type="number" value="1"> -->
+                <!-- </div> -->
+              <!-- </td> -->
+              <!-- <td>109.99/=</td> -->
+              <!-- <td><button class="remove-item"><i class="fa fa-trash" aria-hidden="true"></i></button></td> -->
+            <!-- </tr> -->
 
-            <tr class="cart-item">
-              <td>
-                <img src="images/strawberries.jpg" alt="Product Image">
-                <div class="item-info">
-                  <h3>Strawberry</h3>
-                  <p>Comes in a tin</p>
-                </div>
-              </td>
-              <td>200.00/=</td>
-              <td>
-                <div class="quantity">
-                <input type="number" value="1">
-                </div>
-              </td>
-              <td>600.00/=</td>
-              <td><button class="remove-item"><i class="fa fa-trash" aria-hidden="true"></i></button></td>
-            </tr>
-            
-            <tr class="cart-item">
-                <td>
-                  <img src="images/garlic.jpg" alt="Product Image">
-                  <div class="item-info">
-                    <h3>garlic</h3>
-                    <p>       Packed in a sheer bag</p>
-                  </div>
-                </td>
-                <td>70.50/=</td>
-                <td>
-                  <div class="quantity">
-                    <input type="number" value="1">
-                  </div>
-                </td>
-                <td>141.00/=</td>
-                <td><button class="remove-item"><i class="fa fa-trash" aria-hidden="true"></i></button></td>
-              </tr>
+            <!-- <tr class="cart-item"> -->
+              <!-- <td> -->
+                <!-- <img src="images/strawberries.jpg" alt="Product Image"> -->
+                <!-- <div class="item-info"> -->
+                  <!-- <h3>Strawberry</h3> -->
+                  <!-- <p>Comes in a tin</p> -->
+                <!-- </div> -->
+              <!-- </td> -->
+              <!-- <td>200.00/=</td> -->
+              <!-- <td> -->
+                <!-- <div class="quantity"> -->
+                <!-- <input type="number" value="1"> -->
+                <!-- </div> -->
+              <!-- </td> -->
+              <!-- <td>600.00/=</td> -->
+              <!-- <td><button class="remove-item"><i class="fa fa-trash" aria-hidden="true"></i></button></td> -->
+            <!-- </tr> -->
+<!--              -->
+            <!-- <tr class="cart-item"> -->
+                <!-- <td> -->
+                  <!-- <img src="images/garlic.jpg" alt="Product Image"> -->
+                  <!-- <div class="item-info"> -->
+                    <!-- <h3>garlic</h3> -->
+                    <!-- <p>       Packed in a sheer bag</p> -->
+                  <!-- </div> -->
+                <!-- </td> -->
+                <!-- <td>70.50/=</td> -->
+                <!-- <td> -->
+                  <!-- <div class="quantity"> -->
+                    <!-- <input type="number" value="1"> -->
+                  <!-- </div> -->
+                <!-- </td> -->
+                <!-- <td>141.00/=</td> -->
+                <!-- <td><button class="remove-item"><i class="fa fa-trash" aria-hidden="true"></i></button></td> -->
+              <!-- </tr> -->
 
-          </tbody>
-        </table>
+          <!-- </tbody> -->
+        <!-- </table> -->
 
 
-        <div class="cart-total">
-          <p><strong>Total:</strong> 379.50/=</p>
-          <a href="/checkout.html"><button class="checkout-btn">Proceed to Checkout</button></a>
-        </div>
-      </div>
-      
- 
+        <!-- <div class="cart-total"> -->
+          <!-- <p><strong>Total:</strong> 379.50/=</p> -->
+          <!-- <a href="/checkout.html"><button class="checkout-btn">Proceed to Checkout</button></a> -->
+        <!-- </div> -->
+      <!-- </div> -->
+<!--        -->
+<div class="shopping-cart">
+  <h2 id="sho"> Shopping Cart <i class="fa fa-shopping-cart" aria-hidden="true"></i></h2>
+  <p>You have 3 items in your cart</p>
+  <table class="cart-items">
+    <thead>
+      <tr class="products">
+        <th id="price">Product</th>
+        <th id="price">Price</th>
+        <th id="price">Quantity</th>
+        <th id="price">Subtotal</th>
+       
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="cart-item">
+        <td>
+          <img src="/images/parsley.jpg" alt="Product Image">
+          <div class="item-info">
+            <h3>Parsley</h3>
+            <p>Fresh and leafy</p>
+          </div>
+        </td>
+        <td>109.99/=</td>
+        <td>
+          <div class="quantity">
+            <input type="number" value="1">
+          </div>
+        </td>
+        <td>109.99/=</td>
+        <td><button class="remove-item"><i class="fa fa-trash" aria-hidden="true"></i></button></td>
+      </tr>
+      <tr class="cart-item">
+        <td>
+          <img src="images/strawberries.jpg" alt="Product Image">
+          <div class="item-info">
+            <h3>Strawberry</h3>
+            <p>Comes in a tin</p>
+          </div>
+        </td>
+        <td>200.00/=</td>
+        <td>
+          <div class="quantity">
+            <input type="number" value="1">
+          </div>
+        </td>
+        <td>600.00/=</td>
+        <td><button class="remove-item"><i class="fa fa-trash" aria-hidden="true"></i></button></td>
+      </tr> 
+    </tbody>
+  </table>
+</div>
+
+<div class="cart-total">
+  <p><strong>Total:</strong> 379.50/=</p>
+  <a href="/order.html"><button class="checkout-btn">Proceed to Checkout</button></a>
+</div>
+
+
 
 </body>
 </html>
