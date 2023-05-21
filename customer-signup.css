@@ -10,15 +10,38 @@ background-color:green;
 color: white;
 padding: 10px;
 }
+#submitbtn{
+  width: 25vw;
+  height: 35px;
+  border-radius: 4px;
+  text-decoration: none;
+  background-image: linear-gradient(to left, green ,rgb(243, 70, 70));
+
+}
+#para-2{
+  text-decoration: none;
+}
+button a{
+  color: white;
+  text-decoration: none;
+  font-size: large;
+
+}
+
 
 .topNav {
 display: flex;
 justify-content: space-between;
 align-items: center;
 }
+#logoPic{
+  border-radius: 50%;
+  width: 30%;
+}
 
 .logo {
 font-size: 24px;
+
 }
 
 .navItems a {
