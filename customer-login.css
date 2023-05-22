@@ -98,10 +98,11 @@ h1 {
  padding-top: 15px;
 }
 .submitbtn{
-  width: 24vw;
+  width: 20vw;
   height: 35px;
   border-radius: 4px;
   text-decoration: none;
+  font-size: large;
   background-image: linear-gradient(to left, green ,rgb(243, 70, 70));}
   .para-2 a{
     text-decoration: none;
@@ -221,3 +222,4 @@ p {
     width: 90%;
  }
 }
+
