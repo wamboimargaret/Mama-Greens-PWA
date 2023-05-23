@@ -13,6 +13,11 @@ body{
  cursor: pointer;
   overflow:hidden; 
 }
+.btn a{
+  text-decoration: none;
+  font-size: large;
+  color: white;
+}
 
 
 #logo{
